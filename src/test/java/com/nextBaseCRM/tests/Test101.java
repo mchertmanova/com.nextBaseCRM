@@ -72,7 +72,7 @@ public class Test101 {
         //clicking to checkbox1
         checkbox1.click();
 
-
+        
 
 
 
