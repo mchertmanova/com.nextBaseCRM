@@ -15,15 +15,13 @@ public class UserStory_14_Logout {
     @BeforeClass
     public void setUpMethod() {
 
-        //Open chrome browse
+        //Open chrome browser
         // Set up
 
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-        //Open browser
-        driver.get("https://google.com");
 
         // Go to: https://login2.nextbasecrm.com
         driver.get("https://login2.nextbasecrm.com");
