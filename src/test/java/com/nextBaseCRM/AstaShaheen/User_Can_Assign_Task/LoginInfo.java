@@ -12,10 +12,11 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginInfo {
 
-     WebDriver driver;
 
+    WebDriver driver;
 
-    public  void LogIn() {
+    public void LogIn( ) {
+
 
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
